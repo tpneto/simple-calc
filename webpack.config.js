@@ -34,7 +34,7 @@ module.exports = {
       new HtmlWebpackPlugin({
         template: './calculator.html',
         chunks: ['main'],
-        filename: 'calculator.html',
+        filename: 'index.html',
       }),
     ],
     devServer: {
